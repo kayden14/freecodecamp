@@ -1,0 +1,124 @@
+#welcome-section{
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/R.6a4cf4853c511fba1f5b33b38e31f7cd?rik=6Ui38xc4y%2bHOJg&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+#welcome-section div{
+    
+    text-align: end;
+    
+}
+#welcome-section p{
+    font-size: large;
+    color: rgba(255, 255, 255, 0.76);
+    padding-right: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15%;
+    
+}
+#welcome-section h1{
+    padding-top: 30%;
+    font-family: helvetica;
+    padding-right: 20%;
+    color: snow;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 0.5em;
+    
+}
+nav a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+}
+nav a{
+    text-decoration: none;
+    padding: 2em;
+    padding-right: 1em;
+    
+}
+.nav {
+    display: flex;
+    justify-content: end;
+    padding-left: 80%;
+    word-spacing: 9em;
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 139, 0.61);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    
+    
+}
+
+
+.my-photo{
+    width: 100%;
+} 
+#about-me{
+    display: grid;
+    grid-template-columns: repeat(2, 25% 60%);
+    gap: 2em;
+    font-size: larger;
+    line-height: 2em;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+#projects h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: larger;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat (2, 30% 30% );
+}
+#contact{
+    height: 70vh;
+    background-color: rgba(0, 0, 139, 0.219);
+    
+}
+#contact p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    
+    
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+
+}
+.project-grid img{
+    height: 70%;
+}
+.project-grid a{
+    text-decoration: none;
+}
+footer{
+    bottom: 0;
+    margin-top:25% ;
+    text-align: center;
+    
+}
+footer i{
+    margin-right: 3em;
+    font-size: x-large;
+} 
+footer i:hover{
+    color: white;
+}   
+  
+
+ 
+      
+
